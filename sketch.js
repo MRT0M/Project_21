@@ -19,10 +19,10 @@ function draw() {
   if(hasCollided(bullet,wall)){
    bullet.velocityX=0;
    if(damage<10){
-   bullet.shapeColor="Green";
+   wall.shapeColor="Green";
    }
    if(damage>10){
-   bullet.shapeColor="Red";
+   wall.shapeColor="Red";
    }
   }
   drawSprites();
